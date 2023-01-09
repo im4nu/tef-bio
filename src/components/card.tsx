@@ -59,7 +59,7 @@ export default function Card(){
             transition={{ duration: 1.5 }}
             >
                 <a href='https://open.spotify.com/user/21puovbavailamy5fy3hl22ei?si=c0e75712ce164a28' target="_blank" className="flex flex-row cardHeight" rel="noreferrer">
-                    <div className="flex flex-row z-20 w-1/2 items-center justify-center gap-5 pl-10">
+                    <div className="flex flex-row z-20 w-1/2 items-center justify-center gap-5 pl-4">
                         <img style={{width: 53, height: 53}} src={IconSpotify} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
