@@ -16,7 +16,7 @@ export default function Card(){
                     </div>
                 </div>
 
-                <aside className="flex w-4/6 bg-instagram bg-cover bg-no-repeat">
+                <aside className="flex w-4/6 bgInstagram">
                     <p className='-z-10'>.</p>
                 </aside>
 

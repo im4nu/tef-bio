@@ -1,5 +1,3 @@
-import './App.css'
-
 import stick from './assets/icons/stick.svg'
 import Card from './components/card'
 
