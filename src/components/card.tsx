@@ -46,7 +46,7 @@ export default function Card(){
 
                     <div className="flex flex-col">
                         <p className='whitespace-nowrap'>+55 88 99717 9651</p>
-                        <h2 className='text-white'>Whatsapp</h2>
+                        <h2 className='WhatsappTitle'>Whatsapp</h2>
                     </div>
                 </div>
 
