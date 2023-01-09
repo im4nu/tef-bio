@@ -7,22 +7,20 @@ function App() {
     <main className='flex flex-col w-screen h-screen'>
       <div className="flex flex-col">
         <Card />
-      </div>
+        <ul className="circles">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+      </ul>
 
-      <div className="area" >
-            <ul className="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-      </div >
+      </div>
 
       <div className="fixed bottom-0 ArrowDown">
         <img src={arrowDown} alt="Seta para baixo" />
