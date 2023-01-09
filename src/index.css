@@ -13,9 +13,7 @@
 html,
 body {
   max-width: 100vw;
-  max-height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 body{
@@ -28,17 +26,11 @@ a {
   text-decoration: none;
 }
 
-.footerStick{
-  bottom: 0;
-  left: 42%;
-}
-
 p{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 11px;
-  line-height: 11px;
+  font-size: 12px;
   color: #fff;
 }
 
@@ -46,51 +38,161 @@ h2{
   font-family: 'Inter';
   font-style: italic;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
+  font-size: 24px;
 }
-
-span{
-  color: #DF7E91;
+.cardHeight{
+  height: 25vh;
 }
-
 .instagramTitle{
   color: #C63D58;
-}
-.InstagramRetangle{
-  display: fixed;
-  position: absolute;
-  background: conic-gradient(from 131.63deg at 43.75% 0%, rgba(217, 217, 217, 0) 0deg, #252525 20.56deg, #252525 199.18deg, rgba(217, 217, 217, 0) 360deg);
-  z-index: 10;
-  width: 100vw;
-  height: 7rem;
-}
-
-.LinkedinRetangle{
-  display: fixed;
-  position: absolute;
-  background: conic-gradient(from 129.81deg at 40% 0%, rgba(217, 217, 217, 0) 0deg, #927C77 20.56deg, #927C77 174.42deg, #927C77 199.18deg, rgba(217, 217, 217, 0) 360deg);  
-  z-index: 10;
-  width: 100vw;
-  height: 7rem;
 }
 .WhatsappTitle{
   color: #25D366;
 }
-.WhatsappRetangle{
-  display: fixed;
-  position: absolute;
-  background: conic-gradient(from 135.82deg at 47.5% -4.02%, rgba(217, 217, 217, 0) 0deg, #404040 20.56deg, #404040 199.18deg, rgba(217, 217, 217, 0) 360deg);  
-  width: 100vw;
-  z-index: 10;
-  height: 7rem;
+.MailTitleAndSub{
+  color: #262626;
 }
 
-.mailRetangle{
-  display: fixed;
+.InstagramRetangle, .WhatsappRetangle, .LinkedinRetangle, .mailRetangle{
+  display: flex;
   position: absolute;
-  background: conic-gradient(from 131.56deg at 43.61% 0%, rgba(217, 217, 217, 0) 0deg, #3A3931 20.56deg, #3A3931 199.18deg, rgba(217, 217, 217, 0) 360deg);  
-  height: 7rem;
-  z-index: 10;
   width: 100vw;
+  height: 25vh;
+}
+.InstagramRetangle{
+  background: linear-gradient(80.51deg, #252525 48.43%, rgba(37, 37, 37, 0) 87.77%);
+}
+.LinkedinRetangle{
+  background: linear-gradient(81.68deg, #927C77 39.06%, rgba(37, 37, 37, 0) 93.1%);
+}
+.WhatsappRetangle{
+  background: linear-gradient(80.01deg, #3A3931 49.12%, rgba(37, 37, 37, 0) 91.89%);
+}
+.mailRetangle{
+  background: linear-gradient(80.01deg, #B0AFBC 49.12%, rgba(37, 37, 37, 0) 91.89%);
+}
+
+/* // Animation // */
+.area{
+  background: #4e54c8;  
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  width: 100%;
+  height:100vh;
+  
+ 
+}
+
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+
 }

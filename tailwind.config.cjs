@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'instagram': "url('/src/assets/images/Insta.png')",
-        'linkedin': "url('/src/assets/images/linkedin.png')",
-        'whatsapp': "url('/src/assets/images/whats.png')",
-        'gmail': "url('/src/assets/images/mail.png')",
+        'instagram': "url('/src/assets/images/image 1.png')",
+        'linkedin': "url('/src/assets/images/image 2.png')",
+        'whatsapp': "url('/src/assets/images/image 3.png')",
+        'gmail': "url('/src/assets/images/image 4.png')",
       }
 
     },

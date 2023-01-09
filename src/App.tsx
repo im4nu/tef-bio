@@ -4,17 +4,24 @@ import Card from './components/card'
 function App() {
   return (
     <main className='flex flex-col w-screen h-screen'>
-      <div className="flex flex-col gap-7">
+      <div className="flex flex-col">
         <Card />
       </div>
 
-      <div className="flex flex-col h-full justify-end items-center text-center">
-        <p className='pb-10 text-sm'>Selecione um dos <span>contatos</span> acima</p>
-      </div>
-
-      <div className="fixed footerStick">
-        <img src={stick} alt="Tracejado no fim da página" />
-      </div>
+      <div className="area" >
+            <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+      </div >
     </main>
   )
 }
