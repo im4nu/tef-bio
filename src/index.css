@@ -46,14 +46,14 @@ h2{
 .instagramTitle{
   color: #C63D58;
 }
-.WhatsappTitle{
+.SpotifyTitle{
   color: #25D366;
 }
 .MailTitleAndSub{
   color: #262626;
 }
 
-.InstagramRetangle, .WhatsappRetangle, .LinkedinRetangle, .mailRetangle{
+.InstagramRetangle, .SpotifyRetangle, .LinkedinRetangle, .mailRetangle{
   display: flex;
   position: absolute;
   width: 100vw;
@@ -65,7 +65,7 @@ h2{
 .LinkedinRetangle{
   background: linear-gradient(81.68deg, #927C77 39.06%, rgba(37, 37, 37, 0) 93.1%);
 }
-.WhatsappRetangle{
+.SpotifyRetangle{
   background: linear-gradient(80.01deg, #3A3931 49.12%, rgba(37, 37, 37, 0) 91.89%);
 }
 .mailRetangle{

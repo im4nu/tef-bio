@@ -1,6 +1,6 @@
 import IconInsta from '../assets/icons/instagram.svg'
 import IconLinkedin from '../assets/icons/linkedin.svg'
-import IconWhats from '../assets/icons/whatsapp.svg'
+import IconSpotify from '../assets/icons/spotify.svg'
 import IconMail from '../assets/icons/mail.svg'
 import { motion } from "framer-motion"
 
@@ -58,21 +58,21 @@ export default function Card(){
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
             >
-                <a href='https://api.whatsapp.com/send/?phone=5588997179651&text&type=phone_number&app_absent=0' target="_blank" className="flex flex-row cardHeight" rel="noreferrer">
+                <a href='https://open.spotify.com/user/21puovbavailamy5fy3hl22ei?si=c0e75712ce164a28' target="_blank" className="flex flex-row cardHeight" rel="noreferrer">
                     <div className="flex flex-row z-20 w-1/2 items-center justify-center gap-5 pl-10">
-                        <img style={{width: 53, height: 53}} src={IconWhats} alt="Logomarca do Instagram" />
+                        <img style={{width: 53, height: 53}} src={IconSpotify} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
-                            <p className='whitespace-nowrap font-medium'>+55 88 99717 9651</p>
-                            <h2 className='font-semibold WhatsappTitle'>Whatsapp</h2>
+                            <p className='whitespace-nowrap font-medium'>Feijaokarroz</p>
+                            <h2 className='font-semibold SpotifyTitle'>Spotify</h2>
                         </div>
                     </div>
 
-                    <aside className="flex w-4/6 bg-whatsapp bg-cover bg-center bg-no-repeat">
+                    <aside className="flex w-4/6 bg-spotify bg-cover bg-center bg-no-repeat">
                         <p className='-z-10'>.</p>
                     </aside>
 
-                    <div className="WhatsappRetangle"></div>
+                    <div className="SpotifyRetangle"></div>
                 </a>
             </motion.div>
 
