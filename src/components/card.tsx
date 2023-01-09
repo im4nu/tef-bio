@@ -17,8 +17,8 @@ export default function Card(){
                         <img style={{width: 53, height: 53}} src={IconInsta} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
-                            <p>@feijaokarroz</p>
-                            <h2 className='instagramTitle'>Instagram</h2>
+                            <p className='font-medium'>@feijaokarroz</p>
+                            <h2 className='font-semibold instagramTitle'>Instagram</h2>
                         </div>
                     </div>
 
@@ -40,8 +40,8 @@ export default function Card(){
                         <img style={{width: 53, height: 53}} src={IconLinkedin} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
-                            <p>Estefany David</p>
-                            <h2 className='text-white'>Linkedin</h2>
+                            <p className='font-medium'>Estefany David</p>
+                            <h2 className='font-semibold text-white'>Linkedin</h2>
                         </div>
                     </div>
 
@@ -63,8 +63,8 @@ export default function Card(){
                         <img style={{width: 53, height: 53}} src={IconWhats} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
-                            <p className='whitespace-nowrap'>+55 88 99717 9651</p>
-                            <h2 className='WhatsappTitle'>Whatsapp</h2>
+                            <p className='whitespace-nowrap font-medium'>+55 88 99717 9651</p>
+                            <h2 className='font-semibold WhatsappTitle'>Whatsapp</h2>
                         </div>
                     </div>
 
@@ -86,8 +86,8 @@ export default function Card(){
                         <img style={{width: 53, height: 53}} src={IconMail} alt="Logomarca do Instagram" />
 
                         <div className="flex flex-col">
-                            <p className='MailTitleAndSub'>doritos@gmail.com</p>
-                            <h2 className='MailTitleAndSub'>Gmail</h2>
+                            <p className='MailTitleAndSub font-bold'>doritos@gmail.com</p>
+                            <h2 className='font-semibold MailTitleAndSub'>Gmail</h2>
                         </div>
                     </div>
 

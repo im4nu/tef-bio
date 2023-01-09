@@ -72,6 +72,20 @@ h2{
   background: linear-gradient(80.01deg, #B0AFBC 49.12%, rgba(37, 37, 37, 0) 91.89%);
 }
 
+.ArrowDown{
+  animation: go-back 1s infinite alternate;
+  left: 50%;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 /* // Animation // */
 .area{
   position: fixed;

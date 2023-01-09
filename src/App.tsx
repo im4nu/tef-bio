@@ -1,5 +1,6 @@
-import stick from './assets/icons/stick.svg'
 import Card from './components/card'
+import arrowDown from './assets/icons/arrowDown.svg'
+import { motion } from "framer-motion"
 
 function App() {
   return (
@@ -22,6 +23,10 @@ function App() {
                     <li></li>
             </ul>
       </div >
+
+      <div className="fixed bottom-0 ArrowDown">
+        <img src={arrowDown} alt="Seta para baixo" />
+      </div>
     </main>
   )
 }
